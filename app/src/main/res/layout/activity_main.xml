@@ -56,6 +56,14 @@
             android:hint="@string/numbers"/>
 
 
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/clear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintTop_toBottomOf="@id/numbers"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"/>
+
 
 
 
